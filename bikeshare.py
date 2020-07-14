@@ -220,12 +220,12 @@ def get_most_common(df, column_name):
 
 def raw_data(df):
     while True:
-        data_prompt=input('Display 5 Lines of Raw Data? (Yes or No)\n').lower()
+        data_prompt=input('Would you like to display 5 lines of raw data? (Yes or No)\n').lower()
         if data_prompt=='yes':
             start_loc=0
             print(df.iloc[start_loc:(start_loc+5)])
             while True:
-                more_data_prompt=input('Display Next 5 Lines of Raw Data? (Yes or No)\n').lower()
+                more_data_prompt=input('Would you like to display the next 5 lines of raw data? (Yes or No)\n').lower()
                 if more_data_prompt=='yes':
                     start_loc+=5
                     print(df.iloc[start_loc:(start_loc+5)])
