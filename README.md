@@ -5,7 +5,7 @@ July 13, 2020
 Udacity Bikeshare Project for Python
 
 ### Description
-Describe what your project is about and what it does
+This project filters and displays bikeshare data from Chicago, New York City, and Washington.
 
 ### Files used
 Include the files used
